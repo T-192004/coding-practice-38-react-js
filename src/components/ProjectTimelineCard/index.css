@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: #ffffff 2px 2px 2px 2px;
+  background-color: #ffffff;
+}
+.project-image {
+  width: 100%;
+  margin: 8px;
+  border-radius: 4px;
+}
+.project-content-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.project-duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.time-icon {
+  width: 18px;
+  height: 18px;
+  margin: 5px;
+}
+.project-duration {
+  color: #2b237c;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.project-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+.project-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+.project-link {
+  text-decoration: none;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+}
